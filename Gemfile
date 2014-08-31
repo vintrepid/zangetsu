@@ -44,6 +44,7 @@ gem 'unicorn'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'byebug', group: [:development, :test]
 
 gem 'foreman'
 gem 'rails_12factor', :group => :production
