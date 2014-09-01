@@ -56,6 +56,7 @@ gem 'factory_girl_rails', '~> 4.4.1', :group => :test
 gem 'shoulda-matchers', :group => :test
 gem 'capybara', '~> 2.4.1'
 gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-datepicker-rails'
 gem 'font-awesome-rails', '~> 4.1.0'
 gem 'haml-rails', '~> 0.5.3'
 gem 'responders', '~> 1.1.0'

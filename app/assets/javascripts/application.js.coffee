@@ -13,5 +13,9 @@
 #= require jquery
 #= require jquery_ujs
 #= require bootstrap
+#= require bootstrap-datepicker/core
 #= require data-confirm-modal
 #= require_tree .
+
+jQuery ->    
+  $('input.date_picker').datepicker({autoclose: true})
