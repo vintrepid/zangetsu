@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby   '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.5'
+gem 'rails', '4.1.6'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
@@ -49,7 +49,7 @@ gem 'byebug', group: [:development, :test]
 gem 'foreman'
 gem 'rails_12factor', :group => :production
 gem 'heroku-deflater', :group => :production
-gem 'rspec-rails', '~> 3.0.2', :group => [ :development, :test ]
+gem 'rspec-rails', '~> 3.1.0', :group => [ :development, :test ]
 gem 'rspec-collection_matchers', '~> 1.0.0'
 gem 'rspec-its', '~> 1.0.1'
 gem 'factory_girl_rails', '~> 4.4.1', :group => :test
@@ -57,7 +57,7 @@ gem 'shoulda-matchers', :group => :test
 gem 'capybara', '~> 2.4.1'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'bootstrap-datepicker-rails'
-gem 'font-awesome-rails', '~> 4.1.0'
+gem 'font-awesome-rails', '~> 4.2.0'
 gem 'haml-rails', '~> 0.5.3'
 gem 'responders', '~> 1.1.0'
 gem 'has_scope', '~> 0.5.0'
@@ -65,7 +65,7 @@ gem 'simple_form', '~> 3.1.0.rc2'
 gem 'kaminari', '~> 0.16.0'
 gem 'kaminari-bootstrap', '~> 3.0.1'
 gem 'friendly_id', '~> 5.0.0'
-gem 'acts-as-taggable-on', '~> 3.3.0'
+gem 'acts-as-taggable-on', '~> 3.4.1'
 gem 'acts_as_list', '~> 0.4.0'
 gem 'paranoia', '~> 2.0.0'
 gem 'paper_trail', '~> 3.0.0'
@@ -73,7 +73,7 @@ gem 'state_machine', '~> 1.2.0'
 gem 'meta-tags', '~> 2.0.0', :require => 'meta_tags'
 gem 'awesome_nested_set', '~> 3.0.0'
 gem 'sitemap_generator', '~> 5.0.3'
-gem 'devise', '~> 3.2.4'
+gem 'devise', '~> 3.3.0'
 gem 'rolify', '~> 3.4.0'
 gem 'cancancan', '~> 1.9.1'
 gem 'gravatar_image_tag', '~> 1.2.0'
