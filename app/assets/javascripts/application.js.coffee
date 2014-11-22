@@ -12,7 +12,7 @@
 #
 #= require jquery
 #= require jquery_ujs
-#= require bootstrap
+#= require bootstrap-sprockets
 #= require bootstrap-datepicker/core
 #= require data-confirm-modal
 #= require_tree .
